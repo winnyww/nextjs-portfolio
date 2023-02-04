@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Work from '../Components/Work';
+// import Work from '../Components/Work';
 import HeadTag from '../Components/HeadTag';
 
 const work = ({ currentTheme }) => {
@@ -7,7 +7,7 @@ const work = ({ currentTheme }) => {
         <>
             <HeadTag page='Work'/>
             <div>
-                <Work currentTheme={currentTheme}/>
+                {/* <Work currentTheme={currentTheme}/> */}
             </div>
         </>
     )

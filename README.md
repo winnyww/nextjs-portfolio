@@ -162,8 +162,8 @@ There are only 3 images you need to set up externally. These images have to have
       Favicon Image
       <ul>
         <li>name - favicon</li>
-        <li>type - .jpg</li>
-        <li>filename - favicon.jpg</li>
+        <li>type - .png</li>
+        <li>filename - logo.png</li>
          <li>location - root > public</li>
       </ul>
     </li>

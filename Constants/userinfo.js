@@ -3,23 +3,24 @@
 import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
-    logoText: "Michael Scott", //This text is visible on your navbar and footer like your logo.
+    logoText: "Winny Wang", //This text is visible on your navbar and footer like your logo.
+    footerText: "Let's Chat! ☕️",
+    footerSubtext: "View my Resume here",
     contact: {
-        email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
-        phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
-        countrycode: '+91' //It is advisable to add the country code incase you mention your contact number.
+        email: 'pw1101@berkeley.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
+        phone: '510-988-1198', //Phone number is optional, if you dont want it, consider leaving it blank .
+        countrycode: '+1' //It is advisable to add the country code incase you mention your contact number.
     },
     socials: [
         //For aesthetics, it is advisable for you to mention upto 4 social media links only. Fill in the links.
         //more icons are imported above, use as you like them.
-        { type: 'github', link: '', icon: faGithubAlt },
         { type: 'linkedin', link: '', icon: faLinkedinIn },
-        { type: 'medium', link: '', icon: faMediumM },
+        { type: 'youtube', link: '', icon: faGithubAlt },
     ],
     greeting: {
         //this text goes on your landing page
-        title: "Hey there, I am Michael.",
-        subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
+        // title: "Hey there, I'm an innovative designer & researcher shaping meaningful thoughts into realities!",
+        title: "Hey! I'm Winny. I’m currently a Master of Design student at UC Berkeley ✌🏻 Previously, I worked as student UX designer and front end developer. I'm most interested in innovative technologies that shape meaningful thoughts into realities ✨"// subtitle: "I'm an innovative designer & researcher shaping meaningful thoughts into realities!"
     },
     capabilities: [
         //this text goes on your home page in table format.
@@ -51,22 +52,22 @@ export const userinfo = {
         visible: true, //set this to false if you want to omit this section
         educationList: [
             {
-                time: 'May - Oct 2020', //timespan
-                title: 'Degree name', //eg. BTech in Compuster Engineering
-                organization: 'School Name', //eg. VJTI, Mumbai
-                description: 'Lorem ipsum dolor sit amet consectetur' //eg. secured a cgpa of 9.25 in all sems appeared in so far
+                time: 'Sep 2017 - 2021', 
+                title: 'Interactive Media Arts & Humanities', 
+                organization: 'New York University Shanghai', 
+                //description: 'Lorem ipsum dolor sit amet consectetur' //eg. secured a cgpa of 9.25 in all sems appeared in so far
             },
             {
-                time: 'May - Oct 2020',
-                title: 'Degree name',
-                organization: 'School Name',
-                description: 'Lorem ipsum dolor sit amet consectetur'
+                time: 'Aug 2021 - 2022',
+                title: 'Associate Fellowship',
+                organization: 'New York University Shanghai',
+                //description: 'Lorem ipsum dolor sit amet consectetur'
             },
             {
-                time: 'May - Oct 2020',
-                title: 'Degree name',
-                organization: 'School Name',
-                description: 'Lorem ipsum dolor sit amet consectetur'
+                time: 'Aug 2022 - 2023',
+                title: 'Master of Design (MDes)',
+                organization: 'UC Berkeley',
+                description: "I'm a first-year master student at MDes, expecting to graduate in December 2023"
             },
         ],
     },
@@ -116,7 +117,7 @@ export const headings = {
 
 export const ctaTexts = {
     //you can customise all the cta texts here.
-    landingCTA: 'My work',
+    landingCTA: 'About',
     workCTA: 'View All',
     capabCTA: 'Get in Touch',
     educationCTA: 'About Me',
